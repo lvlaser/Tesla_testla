@@ -15,7 +15,6 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Join Strings.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Join Strings.vi"/>
 			</Item>
-			<Item Name="GLOBAL Estop Occurrence.vi" Type="VI" URL="../../Source/Common functions/GLOBAL Estop Occurrence.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
