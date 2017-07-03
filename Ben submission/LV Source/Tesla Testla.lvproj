@@ -14,15 +14,8 @@
 		<Item Name="Reusable" Type="Folder">
 			<Item Name="UI" Type="Folder"/>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
-				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
-			</Item>
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Join Strings.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Join Strings.vi"/>
-			</Item>
-		</Item>
+		<Item Name="CAN IO.lvclass" Type="LVClass" URL="../CAN IO_class/CAN IO.lvclass"/>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
