@@ -11,6 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="doc" Type="Folder">
+			<Item Name="LabVIEW Interview Problem.doc" Type="Document" URL="../../../Instructions/LabVIEW Interview Problem.doc"/>
+		</Item>
 		<Item Name="Reusable" Type="Folder">
 			<Item Name="UI" Type="Folder"/>
 		</Item>
@@ -19,6 +22,7 @@
 			<Item Name="Junk test ping with dotNET.vi" Type="VI" URL="../Tests/Junk test ping with dotNET.vi"/>
 			<Item Name="Test CAN IO Class.vi" Type="VI" URL="../Tests/Test CAN IO Class.vi"/>
 		</Item>
+		<Item Name="_test class base.lvlib" Type="Library" URL="../_test class base/_test class base.lvlib"/>
 		<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 		<Item Name="CAN IO.lvclass" Type="LVClass" URL="../CAN IO_class/CAN IO.lvclass"/>
 		<Item Name="Ghetto_ping.lvclass" Type="LVClass" URL="../Ghetto_ping_class/Ghetto_ping.lvclass"/>
