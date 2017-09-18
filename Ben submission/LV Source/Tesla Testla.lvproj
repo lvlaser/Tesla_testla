@@ -27,9 +27,13 @@
 			<Item Name="Junk test ping commandline.vi" Type="VI" URL="../Tests/Junk test ping commandline.vi"/>
 			<Item Name="Test CAN IO Class.vi" Type="VI" URL="../Tests/Test CAN IO Class.vi"/>
 		</Item>
-		<Item Name="_test class base.lvlib" Type="Library" URL="../_test class base/_test class base.lvlib"/>
-		<Item Name="CAN IO.lvclass" Type="LVClass" URL="../CAN IO_class/CAN IO.lvclass"/>
-		<Item Name="Ghetto_ping.lvclass" Type="LVClass" URL="../Ghetto_ping_class/Ghetto_ping.lvclass"/>
+		<Item Name="Tools" Type="Folder">
+			<Item Name="CAN IO.lvclass" Type="LVClass" URL="../CAN IO_class/CAN IO.lvclass"/>
+			<Item Name="Ghetto_ping.lvclass" Type="LVClass" URL="../Ghetto_ping_class/Ghetto_ping.lvclass"/>
+		</Item>
+		<Item Name="Tesla Tests" Type="Folder">
+			<Item Name="_test class base.lvlib" Type="Library" URL="../_test class base/_test class base.lvlib"/>
+		</Item>
 		<Item Name="Tesla Factory Tester.lvlib" Type="Library" URL="../Tesla Factory Tester/Tesla Factory Tester.lvlib"/>
 		<Item Name="Tesla Tester GUI.lvlib" Type="Library" URL="../Tesla Tester GUI/Tesla Tester GUI.lvlib"/>
 		<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
