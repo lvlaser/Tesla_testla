@@ -14,5 +14,4 @@
 		<Item Name="StartMeasurement_Msg.lvclass" Type="LVClass" URL="../Messages/StartMeasurement_Msg/StartMeasurement_Msg.lvclass"/>
 	</Item>
 	<Item Name="Tesla Tester GUI.lvclass" Type="LVClass" URL="../Tesla Tester GUI_Actor/Tesla Tester GUI.lvclass"/>
-	<Item Name="Tesla Tester GUI_Main.vi" Type="VI" URL="../Tesla Tester GUI_Main.vi"/>
 </Library>
