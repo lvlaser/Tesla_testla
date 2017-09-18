@@ -11,6 +11,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages" Type="Folder">
+		<Item Name="Run Tests_Msg.lvclass" Type="LVClass" URL="../Messages/Run Tests_Msg/Run Tests_Msg.lvclass"/>
 		<Item Name="Update Status String_Msg.lvclass" Type="LVClass" URL="../Messages/Update Status String_Msg/Update Status String_Msg.lvclass"/>
 	</Item>
 	<Item Name="Tesla Factory Tester.lvclass" Type="LVClass" URL="../Tesla Factory Tester_Actor/Tesla Factory Tester.lvclass"/>
