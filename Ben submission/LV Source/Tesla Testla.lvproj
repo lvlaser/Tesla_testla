@@ -35,6 +35,7 @@
 			<Item Name="_test class base.lvlib" Type="Library" URL="../_test class base/_test class base.lvlib"/>
 			<Item Name="Ping Test.lvlib" Type="Library" URL="../Ping Test/Ping Test.lvlib"/>
 			<Item Name="Text Based Test.lvlib" Type="Library" URL="../Text Based Test/Text Based Test.lvlib"/>
+			<Item Name="CAN Protocol Test.lvlib" Type="Library" URL="../CAN Protocol Test/CAN Protocol Test.lvlib"/>
 		</Item>
 		<Item Name="Tesla Factory Tester.lvlib" Type="Library" URL="../Tesla Factory Tester/Tesla Factory Tester.lvlib"/>
 		<Item Name="Tesla Tester GUI.lvlib" Type="Library" URL="../Tesla Tester GUI/Tesla Tester GUI.lvlib"/>
