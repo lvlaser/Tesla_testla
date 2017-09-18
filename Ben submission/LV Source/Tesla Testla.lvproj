@@ -11,15 +11,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="doc" Type="Folder">
-			<Item Name="LabVIEW Interview Problem.doc" Type="Document" URL="../../../Instructions/LabVIEW Interview Problem.doc"/>
-		</Item>
 		<Item Name="Reusable" Type="Folder">
 			<Item Name="UI" Type="Folder"/>
 		</Item>
+		<Item Name="Tesla-supplied" Type="Folder">
+			<Item Name="doc" Type="Folder">
+				<Item Name="LabVIEW Interview Problem.doc" Type="Document" URL="../../../Instructions/LabVIEW Interview Problem.doc"/>
+			</Item>
+			<Item Name="test2.txt" Type="Document" URL="../../Data Files/test2.txt"/>
+			<Item Name="test3.bin" Type="Document" URL="../../Data Files/test3.bin"/>
+		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Comprehensive Sanity Check.vi" Type="VI" URL="../Tests/Comprehensive Sanity Check.vi"/>
-			<Item Name="Junk test ping with dotNET.vi" Type="VI" URL="../Tests/Junk test ping with dotNET.vi"/>
+			<Item Name="Junk test ping commandline.vi" Type="VI" URL="../Tests/Junk test ping commandline.vi"/>
 			<Item Name="Test CAN IO Class.vi" Type="VI" URL="../Tests/Test CAN IO Class.vi"/>
 		</Item>
 		<Item Name="_test class base.lvlib" Type="Library" URL="../_test class base/_test class base.lvlib"/>
