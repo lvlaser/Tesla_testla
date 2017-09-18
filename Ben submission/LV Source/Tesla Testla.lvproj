@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="13008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -21,17 +22,17 @@
 			<Item Name="test2.txt" Type="Document" URL="../../Data Files/test2.txt"/>
 			<Item Name="test3.bin" Type="Document" URL="../../Data Files/test3.bin"/>
 		</Item>
-		<Item Name="Tests" Type="Folder">
+		<Item Name="Unit Tests" Type="Folder">
 			<Item Name="Comprehensive Sanity Check.vi" Type="VI" URL="../Tests/Comprehensive Sanity Check.vi"/>
 			<Item Name="Junk test ping commandline.vi" Type="VI" URL="../Tests/Junk test ping commandline.vi"/>
 			<Item Name="Test CAN IO Class.vi" Type="VI" URL="../Tests/Test CAN IO Class.vi"/>
 		</Item>
 		<Item Name="_test class base.lvlib" Type="Library" URL="../_test class base/_test class base.lvlib"/>
-		<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 		<Item Name="CAN IO.lvclass" Type="LVClass" URL="../CAN IO_class/CAN IO.lvclass"/>
 		<Item Name="Ghetto_ping.lvclass" Type="LVClass" URL="../Ghetto_ping_class/Ghetto_ping.lvclass"/>
 		<Item Name="Tesla Factory Tester.lvlib" Type="Library" URL="../Tesla Factory Tester/Tesla Factory Tester.lvlib"/>
 		<Item Name="Tesla Tester GUI.lvlib" Type="Library" URL="../Tesla Tester GUI/Tesla Tester GUI.lvlib"/>
+		<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -89,7 +90,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{1CF05014-A8A5-459C-BD83-C0E7E35AB203}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tests/Comprehensive Sanity Check.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Unit Tests/Comprehensive Sanity Check.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
