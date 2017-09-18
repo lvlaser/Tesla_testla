@@ -33,6 +33,8 @@
 		</Item>
 		<Item Name="Tesla Tests" Type="Folder">
 			<Item Name="_test class base.lvlib" Type="Library" URL="../_test class base/_test class base.lvlib"/>
+			<Item Name="Ping Test.lvlib" Type="Library" URL="../Ping Test/Ping Test.lvlib"/>
+			<Item Name="Text Based Test.lvlib" Type="Library" URL="../Text Based Test/Text Based Test.lvlib"/>
 		</Item>
 		<Item Name="Tesla Factory Tester.lvlib" Type="Library" URL="../Tesla Factory Tester/Tesla Factory Tester.lvlib"/>
 		<Item Name="Tesla Tester GUI.lvlib" Type="Library" URL="../Tesla Tester GUI/Tesla Tester GUI.lvlib"/>
@@ -72,6 +74,10 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
